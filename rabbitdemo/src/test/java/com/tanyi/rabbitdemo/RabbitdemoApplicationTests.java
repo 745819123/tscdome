@@ -10,12 +10,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class RabbitdemoApplicationTests {
 
-	@Autowired
-	Sender sender;
-	@Test
-	public void contextLoads() {
-		for (int i=0;i<1000;i++)
-		sender.send(i+"测试");
-	}
+    @Autowired
+    Sender sender;
+
+    @Test
+    public void contextLoads() {
+        for (int i = 0; i < 10000; i++)
+            sender.send(i + "测试");
+    }
 
 }
