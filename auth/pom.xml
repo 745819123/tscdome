@@ -23,7 +23,10 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.tanyi</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
         <!--redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

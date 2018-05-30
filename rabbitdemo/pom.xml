@@ -24,6 +24,10 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>com.tanyi</groupId>
+			<artifactId>common</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>

@@ -24,7 +24,10 @@
 	</properties>
 
 	<dependencies>
-
+		<dependency>
+			<groupId>com.tanyi</groupId>
+			<artifactId>common</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-server</artifactId>
